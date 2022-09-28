@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="video.css" />
+    <link rel="stylesheet" href="sidebar.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg" />
+        <img class="youtube-logo" src="icons/youtube-logo.svg" />
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg" />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg" />
+          <div class="tooltip">Create</div>
+        </div>
+        <img class="youtube-apps-icon" src="icons/youtube-apps.svg" />
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg" />
+          <div class="notifications-count">3</div>
+        </div>
+        <img
+          class="current-user-picture"
+          src="https://yt3.ggpht.com/fR5N9gUcL2Es510-jaL7wnPpsi8z_7l5bpBMfLhjtCvy9XfrYW6TpdmQvhXCmRaVKKzQyeZXgA=s88-c-k-c0x00ffffff-no-rj-mo"
+        />
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg" />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg" />
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg" />
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="https://i.ytimg.com/vi/6sEJAuTSKWc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCoVnldI1dMRRirigkW3Wq0QGlOzw"
+            />
+            <div class="video-time">8:06</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="https://yt3.ggpht.com/iXsx1ozBci5EppzgPrGggvVhE8Xmzg_48UOVHO3rqM1D7fnXCPFy2rI_T2pYhs3pA-joECwR=s68-c-k-c0x00ffffff-no-rj"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">1280x960 true stretched</p>
+              <p class="video-author">Rawzu</p>
+              <p class="video-stats">24K views &#183; 4 hours ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="https://i.ytimg.com/vi/-A1RCiHJR7w/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDNpUd63wK1Rb_Ir7izZ6CHdqYBJw"
+            />
+            <div class="video-time">2:22</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="https://yt3.ggpht.com/j1rnMtOkLklahA75eYi5QpBRbJdHzLK-CkvFdggeMVnDXfQeaGwEWSlEzI5kUKvWX6ADNbQd=s88-c-k-c0x00ffffff-no-rj"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                John Legend - Honey (feat. Muni Long) (Official Lyric Video)
+              </p>
+              <p class="video-author">John Legend</p>
+              <p class="video-stats">427K views &#183; 3 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="https://i.ytimg.com/vi/pkfhTBZFTn4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAVeJIDuKUeLW4iXOojFo-MGD8E_g"
+            />
+            <div class="video-time">2:05</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="https://yt3.ggpht.com/ytc/AMLnZu_9OKJHaHwWJdfwAthb7Aeb__OWfppD77J1YB_n-g=s68-c-k-c0x00ffffff-no-rj"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">Levitating (Valorant Montage)</p>
+              <p class="video-author">Zishu</p>
+              <p class="video-stats">238K views &#183; 12 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="https://i.ytimg.com/vi/G0OnH8EijkE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAmvUg5NZjq3sf61kVK6M8_V44ZeQ"
+            />
+            <div class="video-time">3:29</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="https://yt3.ggpht.com/T8cSb_MSKvom8pcT2IJJk-TXCqBHDaoI_w3HCBxQ2tX4YrGs6jpqWg3hNGzLTYNFt1-OF4ln=s68-c-k-c0x00ffffff-no-rj"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                The Weeknd - StarBoy (Sped up to perfection)
+              </p>
+              <p class="video-author">Excite!</p>
+              <p class="video-stats">3.1M views &#183; 3 weeks ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="https://i.ytimg.com/vi/mnbXVP1fcfA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAFuAfVKJ4PEOEQo3slZGFR5rhJ2w"
+            />
+            <div class="video-time">9:13</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="https://yt3.ggpht.com/ytc/AMLnZu9EO_xXgO0LFfnla2DDWvnvCmUqMwzp1MqiGupNZQ=s68-c-k-c0x00ffffff-no-rj"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                WHEN CS:GO PROS FAKEOUT WITH SOUND! (200 IQ PLAYS)
+              </p>
+              <p class="video-author">Skooby</p>
+              <p class="video-stats">459K views &#183; 13 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="https://i.ytimg.com/vi/5eDk-kTE9DI/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAc7D_zRKY6yEwV0u-3FAeArGRolA"
+            />
+            <div class="video-time">22:09</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="https://yt3.ggpht.com/cmmKRxWqMYUcgEcSSkQYZLuohj8CfolJcXaJs6Kbx3vMdtlR6JMtquUtOzAdgUQggbwhZDxiGw=s68-c-k-c0x00ffffff-no-rj"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">Joji - Nectar (Full Album)</p>
+              <p class="video-author">SOUL DEEP</p>
+              <p class="video-stats">4.3M views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="https://i.ytimg.com/vi/MaV9VqFMzB4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCNeKplvP_O4yGpXGdpvi06k-uCgg"
+            />
+            <div class="video-time">15:17</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="https://yt3.ggpht.com/SLnCgW2bPS-fiC0QOC-E2YfVU63_zXdJ4Cfq_-YQzRKFn7Sz1nK8L3EDEbavOWDI6OUm_dyxz9A=s68-c-k-c0x00ffffff-no-rj"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                ASMR Programming - Coding lOS (iPhone) Calculator - No Talking
+              </p>
+              <p class="video-author">ProgHub ASMR</p>
+              <p class="video-stats">76K views &#183; 13 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="https://i.ytimg.com/vi/mNEUkkoUoIA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBmzsGSJBp3FMT6L1XKPQZBWbv4Pw"
+            />
+            <div class="video-time">2:35</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="https://yt3.ggpht.com/_Q2veUE36EUfGMdAegx8b2WGwNmZEsNE_hvM4dqAJjidyB3vd5-Q9jkd0B_s8VxHfvtL_hwc=s88-c-k-c0x00ffffff-no-rj"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                OneRepublic - | Ain't Worried (From “Top Gun: Maverick”)
+                [Official Music Video]
+              </p>
+              <p class="video-author">OneRepublic</p>
+              <p class="video-stats">66M views &#183; 4 months ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

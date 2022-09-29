@@ -1,8 +1,7 @@
 # YouTube UI
 
-<hr>
-Recreating the Youtube UI using HTML and CSS
-<br>
-<h1>Screenshot
-<hr>
-<img src="YoutubeUI.png/>
+<h3>Recreating the Youtube UI using HTML and CSS</h3>
+
+<h1>Screenshot</h1>
+
+<img src="YoutubeUI.png"/>

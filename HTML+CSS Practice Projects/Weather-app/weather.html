@@ -4,16 +4,94 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./general.css" />
     <title>Weather App</title>
   </head>
   <body>
     <div class="container">
-      <header class="header"></header>
-      <aside class="aside-left"></aside>
-      <main class="main"></main>
-      <aside class="aside-right"></aside>
-      <footer class="footer"></footer>
+      <header class="header">
+        <div class="logo-section">
+          <i class="material-icons">menu</i>
+          <img src="" alt="" class="logo" />
+          <p>Weather</p>
+        </div>
+        <div class="h-left-section">
+          <p class="date">September 2022</p>
+          <p class="day">Friday | Sept 29, 2022</p>
+        </div>
+        <div class="h-middle-section"></div>
+        <div class="search-section">
+          <input type="text" class="search-bar" placeholder="Search" />
+          <i class="material-icons">close | </i>
+          <i class="material-icons">search</i>
+          <i class="material-icons">mic</i>
+        </div>
+        <div class="h-right-section">
+          <i class="material-icons">notifications</i>
+          <i class="material-icons">account_circle</i>
+        </div>
+      </header>
+      <aside class="aside-left">
+        <i class="material-icons">home</i>
+        <i class="material-icons">map</i>
+        <i class="material-icons">newspaper</i>
+        <i class="material-icons">contact_mail</i>
+        <i class="material-icons">settings</i>
+        <i class="material-icons">help</i>
+        <i class="material-icons">logout</i>
+      </aside>
+      <main class="main">
+        <div class="main-top">
+          <div class="f-info">
+            <div class="icon-temp">
+              <i class="material-icons">sunny</i>
+              <p>18°C</p>
+            </div>
+            <div class="rise-set">
+              <p>Sunrise: 6:00 AM</p>
+              <p>Sunset: 6:00 PM</p>
+            </div>
+          </div>
+          <div class="s-info">
+            <div class="location">
+              <div class="l-f">
+                <p>Kathmandu,</p>
+                <p>NP</p>
+              </div>
+              <div class="l-s">
+                <p>6:46 AM</p>
+                <p>NPT UTC +5:45</p>
+              </div>
+            </div>
+            <p class="description">Clear Sky</p>
+          </div>
+          <div class="main-bottom">
+            <p class="pressure">Pressure</p>
+            <p class="humidty">Humidity</p>
+            <p class="wind">Wind</p>
+            <p class="visibility">Visibility</p>
+          </div>
+        </div>
+      </main>
+      <aside class="aside-right">
+        <div class="map">Map</div>
+        <div class="coordinates">
+          <p class="lon">Longitude</p>
+          <p class="lat">Latitude</p>
+        </div>
+      </aside>
+      <footer class="footer">
+        <p><img src="" />&copy; 2022 Weather, Inc.</p>
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+        <a href="#">Contact </a>
+        <a href="#">Blog</a>
+        <a href="#">About</a>
+      </footer>
     </div>
   </body>
 </html>

@@ -88,10 +88,88 @@ body {
 .main {
   border: 1px solid purple;
   display: flex;
+  flex-direction: column;
   height: 100%;
   width: 100%;
 }
-
+.main-top {
+  border: 1px solid goldenrod;
+  height: 200px;
+  width: 100%;
+  display: flex;
+}
+.f-info {
+  border: 1px solid black;
+  display: flex;
+  flex: 1;
+  height: 100%;
+  flex-direction: column;
+}
+.icon-temp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 140px;
+}
+.icon-temp i {
+  display: flex;
+  font-size: 100px;
+}
+.icon-temp p {
+  display: flex;
+  font-size: 50px;
+}
+.rise-set {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rise-set p {
+  margin: 3px;
+}
+.s-info {
+  border: 1px solid blue;
+  display: flex;
+  flex: 2;
+  height: 100%;
+  flex-direction: column;
+}
+.location {
+  display: flex;
+}
+.l-f {
+  display: flex;
+  flex: 1;
+  margin: 20px 10px;
+  font-size: 25px;
+}
+.l-s {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 10px;
+  font-size: 25px;
+  flex: 2;
+}
+.l-s p {
+  display: flex;
+  justify-content: flex-end;
+}
+.description {
+  font-size: 40px;
+  margin: 10px;
+}
+.main-bottom {
+  display: flex;
+}
+.main-bottom p {
+  border: 3px solid green;
+  border-radius: 7px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  width: 200px;
+  justify-content: center;
+}
 .aside-right {
   border: 1px solid green;
   display: flex;

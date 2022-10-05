@@ -160,15 +160,17 @@ body {
 }
 .main-bottom {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 .main-bottom p {
   border: 3px solid green;
   border-radius: 7px;
   display: flex;
-  flex-wrap: wrap;
   font-size: 30px;
-  width: 200px;
-  justify-content: center;
+  width: 270px;
+  height: 100px;
+  margin: 30px;
 }
 .aside-right {
   border: 1px solid green;

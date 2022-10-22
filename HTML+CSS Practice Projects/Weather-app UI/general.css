@@ -15,7 +15,7 @@ body {
   background: url(./aurora.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  backdrop-filter: blur(50px);
+  color: #fff;
 }
 
 .container {
